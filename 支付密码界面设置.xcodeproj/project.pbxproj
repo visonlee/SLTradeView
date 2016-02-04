@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48861AC01C62E3F700A6B243 /* SLTradeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 48861ABF1C62E3F700A6B243 /* SLTradeKeyboard.m */; };
+		48861AC21C633D9900A6B243 /* SLTradeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48861AC11C633D9900A6B243 /* SLTradeView.bundle */; };
+		48EBBF481C6057980055C8C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBBF471C6057980055C8C4 /* main.m */; };
+		48EBBF4B1C6057980055C8C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBBF4A1C6057980055C8C4 /* AppDelegate.m */; };
+		48EBBF4E1C6057980055C8C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBBF4D1C6057980055C8C4 /* ViewController.m */; };
+		48EBBF511C6057980055C8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EBBF4F1C6057980055C8C4 /* Main.storyboard */; };
+		48EBBF531C6057980055C8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EBBF521C6057980055C8C4 /* Assets.xcassets */; };
+		48EBBF561C6057980055C8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EBBF541C6057980055C8C4 /* LaunchScreen.storyboard */; };
+		48EBBF911C607BEB0055C8C4 /* SLTradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBBF901C607BEB0055C8C4 /* SLTradeView.m */; };
+		48EBBF941C607EC40055C8C4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBBF931C607EC40055C8C4 /* UIView+Extension.m */; };
+		48EBBF971C608B8E0055C8C4 /* SLTradeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBBF961C608B8E0055C8C4 /* SLTradeInputView.m */; };
+		48EBBF9A1C60A1D50055C8C4 /* SLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBBF991C60A1D50055C8C4 /* SLConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48861ABE1C62E3F700A6B243 /* SLTradeKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTradeKeyboard.h; sourceTree = "<group>"; };
+		48861ABF1C62E3F700A6B243 /* SLTradeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTradeKeyboard.m; sourceTree = "<group>"; };
+		48861AC11C633D9900A6B243 /* SLTradeView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SLTradeView.bundle; sourceTree = "<group>"; };
+		48EBBF431C6057980055C8C4 /* 支付密码界面设置.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付密码界面设置.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EBBF471C6057980055C8C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48EBBF491C6057980055C8C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48EBBF4A1C6057980055C8C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48EBBF4C1C6057980055C8C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48EBBF4D1C6057980055C8C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48EBBF501C6057980055C8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48EBBF521C6057980055C8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48EBBF551C6057980055C8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48EBBF571C6057980055C8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EBBF8F1C607BEB0055C8C4 /* SLTradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTradeView.h; sourceTree = "<group>"; };
+		48EBBF901C607BEB0055C8C4 /* SLTradeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTradeView.m; sourceTree = "<group>"; };
+		48EBBF921C607EC40055C8C4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		48EBBF931C607EC40055C8C4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		48EBBF951C608B8E0055C8C4 /* SLTradeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTradeInputView.h; sourceTree = "<group>"; };
+		48EBBF961C608B8E0055C8C4 /* SLTradeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTradeInputView.m; sourceTree = "<group>"; };
+		48EBBF981C60A1D50055C8C4 /* SLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLConst.h; sourceTree = "<group>"; };
+		48EBBF991C60A1D50055C8C4 /* SLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLConst.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EBBF401C6057980055C8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EBBF3A1C6057980055C8C4 = {
+			isa = PBXGroup;
+			children = (
+				48EBBF451C6057980055C8C4 /* 支付密码界面设置 */,
+				48EBBF441C6057980055C8C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48EBBF441C6057980055C8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EBBF431C6057980055C8C4 /* 支付密码界面设置.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EBBF451C6057980055C8C4 /* 支付密码界面设置 */ = {
+			isa = PBXGroup;
+			children = (
+				48EBBF8E1C607B7B0055C8C4 /* SLTradeView */,
+				48EBBF491C6057980055C8C4 /* AppDelegate.h */,
+				48EBBF4A1C6057980055C8C4 /* AppDelegate.m */,
+				48EBBF4C1C6057980055C8C4 /* ViewController.h */,
+				48EBBF4D1C6057980055C8C4 /* ViewController.m */,
+				48EBBF4F1C6057980055C8C4 /* Main.storyboard */,
+				48EBBF521C6057980055C8C4 /* Assets.xcassets */,
+				48EBBF541C6057980055C8C4 /* LaunchScreen.storyboard */,
+				48EBBF571C6057980055C8C4 /* Info.plist */,
+				48EBBF461C6057980055C8C4 /* Supporting Files */,
+			);
+			path = "支付密码界面设置";
+			sourceTree = "<group>";
+		};
+		48EBBF461C6057980055C8C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48EBBF471C6057980055C8C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48EBBF8E1C607B7B0055C8C4 /* SLTradeView */ = {
+			isa = PBXGroup;
+			children = (
+				48861AC11C633D9900A6B243 /* SLTradeView.bundle */,
+				48EBBF8F1C607BEB0055C8C4 /* SLTradeView.h */,
+				48EBBF901C607BEB0055C8C4 /* SLTradeView.m */,
+				48EBBF951C608B8E0055C8C4 /* SLTradeInputView.h */,
+				48EBBF961C608B8E0055C8C4 /* SLTradeInputView.m */,
+				48861ABE1C62E3F700A6B243 /* SLTradeKeyboard.h */,
+				48861ABF1C62E3F700A6B243 /* SLTradeKeyboard.m */,
+				48EBBF921C607EC40055C8C4 /* UIView+Extension.h */,
+				48EBBF931C607EC40055C8C4 /* UIView+Extension.m */,
+				48EBBF981C60A1D50055C8C4 /* SLConst.h */,
+				48EBBF991C60A1D50055C8C4 /* SLConst.m */,
+			);
+			path = SLTradeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48EBBF421C6057980055C8C4 /* 支付密码界面设置 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EBBF5A1C6057980055C8C4 /* Build configuration list for PBXNativeTarget "支付密码界面设置" */;
+			buildPhases = (
+				48EBBF3F1C6057980055C8C4 /* Sources */,
+				48EBBF401C6057980055C8C4 /* Frameworks */,
+				48EBBF411C6057980055C8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "支付密码界面设置";
+			productName = "支付密码界面设置";
+			productReference = 48EBBF431C6057980055C8C4 /* 支付密码界面设置.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EBBF3B1C6057980055C8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李文深";
+				TargetAttributes = {
+					48EBBF421C6057980055C8C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 48EBBF3E1C6057980055C8C4 /* Build configuration list for PBXProject "支付密码界面设置" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48EBBF3A1C6057980055C8C4;
+			productRefGroup = 48EBBF441C6057980055C8C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EBBF421C6057980055C8C4 /* 支付密码界面设置 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EBBF411C6057980055C8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48861AC21C633D9900A6B243 /* SLTradeView.bundle in Resources */,
+				48EBBF561C6057980055C8C4 /* LaunchScreen.storyboard in Resources */,
+				48EBBF531C6057980055C8C4 /* Assets.xcassets in Resources */,
+				48EBBF511C6057980055C8C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EBBF3F1C6057980055C8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EBBF941C607EC40055C8C4 /* UIView+Extension.m in Sources */,
+				48EBBF971C608B8E0055C8C4 /* SLTradeInputView.m in Sources */,
+				48EBBF4E1C6057980055C8C4 /* ViewController.m in Sources */,
+				48EBBF911C607BEB0055C8C4 /* SLTradeView.m in Sources */,
+				48EBBF4B1C6057980055C8C4 /* AppDelegate.m in Sources */,
+				48EBBF9A1C60A1D50055C8C4 /* SLConst.m in Sources */,
+				48861AC01C62E3F700A6B243 /* SLTradeKeyboard.m in Sources */,
+				48EBBF481C6057980055C8C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48EBBF4F1C6057980055C8C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EBBF501C6057980055C8C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48EBBF541C6057980055C8C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EBBF551C6057980055C8C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48EBBF581C6057980055C8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48EBBF591C6057980055C8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48EBBF5B1C6057980055C8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付密码界面设置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hkb.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48EBBF5C1C6057980055C8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付密码界面设置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hkb.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EBBF3E1C6057980055C8C4 /* Build configuration list for PBXProject "支付密码界面设置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EBBF581C6057980055C8C4 /* Debug */,
+				48EBBF591C6057980055C8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EBBF5A1C6057980055C8C4 /* Build configuration list for PBXNativeTarget "支付密码界面设置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EBBF5B1C6057980055C8C4 /* Debug */,
+				48EBBF5C1C6057980055C8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EBBF3B1C6057980055C8C4 /* Project object */;
+}
